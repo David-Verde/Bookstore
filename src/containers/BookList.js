@@ -14,7 +14,7 @@ const BookList = ({ books }) => (
     </theader>
     <tbody>
       {
-        books.map(book => (
+        books.map((book) => (
           <Book key={book.id} book={book} />
         ))
       }
@@ -24,7 +24,7 @@ const BookList = ({ books }) => (
 
 BookList.propTypes = { books: PropTypes.arrayOf(PropTypes.object).isRequired };
 
-const mapStateToProps = state => ({ books: state.books });
+const mapStateToProps = (state) => ({ books: state.books });
 
 const BookListProvider = connect(mapStateToProps, null)(BookList);
 

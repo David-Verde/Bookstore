@@ -6,12 +6,11 @@ const BooksForm = () => (
     <input type="text" />
     <select name="category">
       {
-          categories.map(category => (<option key={category}>{category}</option>))
+          categories.map((category) => (<option key={category}>{category}</option>))
         }
     </select>
     <button type="submit">Submit</button>
   </form>
 );
-
 
 export default BooksForm;

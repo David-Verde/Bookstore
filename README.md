@@ -26,7 +26,7 @@ All book data and filter information is centered in the reducer
 How to install
 Clone the repository:
 
-git clone https://github.com/uryelah/Microverse-702-Bookstore.git
+git clone https://github.com/David-Verde/Bookstore/
 Enter the directory in the terminal and then run:
 
 npm i

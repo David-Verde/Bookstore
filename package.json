@@ -42,23 +42,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.1",
-    "hint": "^7.1.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
-  "description": "Microverse React Project Of a Bookstore",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/David-Verde/Bookstore.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/David-Verde/Bookstore/issues"
-  },
-  "homepage": "https://github.com/David-Verde/Bookstore#readme"
+    "eslint-plugin-react-hooks": "^2.5.1"
+  }
 }

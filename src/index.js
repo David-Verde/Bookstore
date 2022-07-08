@@ -1,7 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// eslint-disable-next-line no-unused-vars
 import { Provider } from 'react-redux';
+// eslint-disable-next-line no-unused-vars
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 import store from './store';

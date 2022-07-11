@@ -71,4 +71,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+
+This project is [MIT](https://github.com/David-Verde/Bookstore/blob/1st-part-components/LICENSE) licensed.
+

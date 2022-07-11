@@ -1,26 +1,9 @@
-const ADD_BOOK = 'bookstore/src/redux/ADD_BOOK';
-const REMOVE_BOOK = 'bookstore/src/redux/REMOVE_BOOK';
+const ADD_BOOK = 'bookstore/books/ADD_BOOK';
+const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
 const initialState = {
   books: [
-    {
-      id: '1',
-      category: 'Fantasy',
-      author: 'J.K.Rowling',
-      title: ' Harry Potter and the Cursed Child',
-    },
-    {
-      id: '2',
-      category: 'Fantasy',
-      author: 'J. R. R. Tolkien',
-      title: 'Lord Of the Rings',
-    },
-    {
-      id: '3',
-      category: 'Fantasy',
-      author: 'Stephen King',
-      title: 'The Dark Tower',
-    },
+
   ],
 };
 

@@ -10,7 +10,7 @@ import {
 import { Provider } from 'react-redux';
 import Navbar from './components/Navbar';
 import BooksPage from './containers/BooksPage.jsx';
-import Categories from './containers/Categories';
+import Categories from './redux/categories/Categories';
 import store from './redux/createState';
 import './index.css';
 

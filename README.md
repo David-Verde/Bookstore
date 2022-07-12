@@ -5,7 +5,8 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+<br />![logo-david-nuevo-2021](https://user-images.githubusercontent.com/99683363/178603379-a9ecc753-25c6-4e0f-8219-d598b745e63f.png)
+
 <p align="center">
   <a href="https://github.com/David-Verde/Bookstore">
     <img src="src/logo.png" alt="Logo" width="80" height="80">

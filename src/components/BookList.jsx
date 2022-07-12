@@ -1,4 +1,3 @@
-import React from 'react'
 import { useSelector } from 'react-redux';
 import Book from './Book';
 
@@ -12,6 +11,7 @@ const BookList = () => {
         return (
           <li key={book.id}>
             <Book
+              id={book.id}
               title={book.title}
               author={book.author}
               category={book.category}

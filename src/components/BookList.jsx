@@ -12,7 +12,6 @@ const BookList = () => {
         return (
           <li key={book.id}>
             <Book
-              id={book.id}
               title={book.title}
               author={book.author}
               category={book.category}

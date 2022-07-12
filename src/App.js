@@ -1,6 +1,6 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable import/no-unresolved */
 /* eslint-disable import/extensions */
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Navbar from './components/Navbar';
-import BooksPage from './containers/BooksPage.jsx';
+import BooksPage from './containers/BooksPage';
 import Categories from './redux/categories/Categories';
 import store from './redux/createState';
 import './index.css';

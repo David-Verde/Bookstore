@@ -1,3 +1,4 @@
+<<<<<<< 3rd-part-connect
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -6,6 +7,9 @@
   </a>
 
   
+=======
+
+>>>>>>> dev
   <h3 align="center">ReactJs --> [BookStore App]</h3>
 
   <p align="center">
@@ -111,6 +115,11 @@ Authors
 ## 📝 License
 
 This project is [MIT](https://github.com/David-Verde/Bookstore/blob/dev/LICENSE) licensed.
+<<<<<<< 3rd-part-connect
+=======
+
+
+>>>>>>> dev
 
 
 

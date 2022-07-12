@@ -1,4 +1,3 @@
-<<<<<<< 3rd-part-connect
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">

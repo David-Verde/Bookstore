@@ -110,11 +110,6 @@ Authors
 ## 📝 License
 
 This project is [MIT](https://github.com/David-Verde/Bookstore/blob/dev/LICENSE) licensed.
-<<<<<<< 3rd-part-connect
-=======
-
-
->>>>>>> dev
 
 
 

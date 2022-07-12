@@ -5,21 +5,21 @@ const initialState = {
   books: [
     {
       id: '1',
-      category: 'Action',
-      author: 'Suzanne Collins',
-      title: 'The Hunger Games',
+      category: 'Fantasy',
+      author: 'J.K.Rowling',
+      title: ' Harry Potter and the Cursed Child',
     },
     {
       id: '2',
-      category: 'Science Fiction',
-      author: 'Frank Herbert',
-      title: 'Dune',
+      category: 'Fantasy',
+      author: 'J. R. R. Tolkien',
+      title: 'Lord Of the Rings',
     },
     {
       id: '3',
-      category: 'Economy',
-      author: 'Suzanne Collins',
-      title: 'Capital in the Twenty-first Century',
+      category: 'Fantasy',
+      author: 'Stephen King',
+      title: 'The Dark Tower',
     },
   ],
 };

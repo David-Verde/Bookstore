@@ -101,11 +101,9 @@ Give a :star: if you like this project!
 
 Authors
 👤 **David Verde Alvarez**
-
-- GitHub: [@DavidVerdeAlvarez](https://github.com/Unyielding1)
-- Twitter: [@DavidVerdeAlvarez](https://twitter.com/UnyieldingOne)
-- LinkedIn: [@DavidVerdeAlvarez](https://www.linkedin.com/in/david-verde-3349b114b/)
-
+- This is My **GitHub**: [![@omarramoun](https://img.shields.io/github/followers/omarramoun?label=David&style=social)](https://github.com/Unyielding1)
+- This is My **Twitter**: [![@omarramoun](https://img.shields.io/twitter/follow/omarramoun?label=David16&style=social)](https://twitter.com/UnyieldingOne)
+- This is My **Slack**: [![Ramoun](https://img.shields.io/badge/slack-@David-Jose-verde-Alvarez)](https://slack.com)
 
 ## 📝 License
 

@@ -29,7 +29,8 @@ How to install
 Clone the repository:
 
 git clone git@github.com:David-Verde/Bookstore.git
-Enter the directory in the terminal and then run:
+
+-Enter the directory in the terminal and then run:
 
 npm i
 npm start

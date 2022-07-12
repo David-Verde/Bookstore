@@ -1,11 +1,4 @@
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-
-
-
   <h3 align="center">ReactJs --> [BookStore App]</h3>
 
   <p align="center">

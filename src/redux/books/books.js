@@ -1,5 +1,8 @@
-const ADD_BOOK = 'bookstore/src/redux/ADD_BOOK';
-const REMOVE_BOOK = 'bookstore/src/redux/REMOVE_BOOK';
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+
+const ADD_BOOK = 'bookstore/books/ADD_BOOK';
+const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
 const initialState = {
   books: [

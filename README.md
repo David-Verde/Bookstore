@@ -6,10 +6,6 @@
     <img src="/src/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  
-=======
-
->>>>>>> dev
   <h3 align="center">ReactJs --> [BookStore App]</h3>
 
   <p align="center">

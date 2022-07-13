@@ -1,9 +1,16 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
+import BookstoreAPI from '../services/BookstoreAPI';
 
 const BookList = () => {
+  const dispatch = useDispatch();
   const books = useSelector((state) => state.booksReducer.books);
+
+  useEffect(() => {
+    dispatch(BookstoreAPI.getAllBooksFromAPI());
+  }, []);
 
   return (
     <ul className="list-unstyled row mx-0 g-0 gy-3">

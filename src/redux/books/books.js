@@ -1,34 +1,15 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
-
 const ADD_BOOK = 'bookstore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
+const GET_BOOKS = 'bookstore/books/SET_ALL_BOOKS';
 
 const initialState = {
-  books: [
-    {
-      id: '1',
-      category: 'Fantasy',
-      author: 'J.K.Rowling',
-      title: ' Harry Potter and the Cursed Child',
-    },
-    {
-      id: '2',
-      category: 'Fantasy',
-      author: 'J. R. R. Tolkien',
-      title: 'Lord Of the Rings',
-    },
-    {
-      id: '3',
-      category: 'Fantasy',
-      author: 'Stephen King',
-      title: 'The Dark Tower',
-    },
-  ],
+  books: [],
 };
 
 const booksReducer = (state = initialState, action) => {
   switch (action.type) {
+    case GET_BOOKS:
+      return { books: action.payload };
     case ADD_BOOK:
       return { books: [...state.books, action.payload] };
     case REMOVE_BOOK:
@@ -37,6 +18,11 @@ const booksReducer = (state = initialState, action) => {
       return state;
   }
 };
+
+export const getBooks = (payload) => ({
+  type: GET_BOOKS,
+  payload,
+});
 
 export const addBook = (payload) => ({
   type: ADD_BOOK,

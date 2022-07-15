@@ -4,7 +4,7 @@ import { getBooks, addBook, removeBook } from '../redux/books/books';
 export default class BookstoreAPI {
   static #BASE_URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
 
-  static #APP_ID = 'dVobkTkgDoWUVTg6RDwk';
+  static #APP_ID = 'dXhbHW84R2UylfqfKuq7';
 
   static addBooktoAPI = (book) => async (dispatch) => {
     const url = `${this.#BASE_URL}/apps/${this.#APP_ID}/books`;
@@ -14,6 +14,7 @@ export default class BookstoreAPI {
     const APIbook = {
       item_id: id,
       category,
+      author,
       title: `${title} - ${author}`,
     };
     await axios.post(url, APIbook);

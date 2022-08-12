@@ -37,7 +37,7 @@ export default class BookstoreAPI {
     Object.entries(response.data).forEach(([id, info]) => {
       const { title: APItitle, category } = info[0];
       const [title, author] = APItitle.split(' - ');
-      const newBook = {
+      const   Book = {
         id,
         title,
         category,

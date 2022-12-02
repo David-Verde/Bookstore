@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
@@ -66,3 +67,4 @@ Book.propTypes = {
 };
 
 export default Book;
+/* eslint-enable */

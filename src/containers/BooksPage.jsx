@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import BookList from '../components/BookList';
 import BookForm from '../components/BookForm';
@@ -10,3 +11,4 @@ const Books = () => (
 );
 
 export default Books;
+/* eslint-enable */

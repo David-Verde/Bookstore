@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
 import { useEffect } from 'react';
@@ -36,3 +37,4 @@ const BookList = () => {
 };
 
 export default BookList;
+/* eslint-enable */

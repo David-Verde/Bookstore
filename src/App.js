@@ -15,20 +15,22 @@ import store from './redux/createState';
 import './index.css';
 import './app.scss';
 
-const App = () => (
-  <Provider store={store}>
-    <Router>
-      <div className="container d-flex flex-column justify-center align-center">
-        <div className="content-container d-flex flex-column justify-center align-center">
-          <Navbar />
-          <Routes>
-            <Route path="/categories" element={<Categories />} />
-            <Route exact path="/" element={<BooksPage />} />
-          </Routes>
+function App() {
+  return (
+    <Provider store={store}>
+      <Router>
+        <div className="container d-flex flex-column justify-center align-center">
+          <div className="content-container d-flex flex-column justify-center align-center">
+            <Navbar />
+            <Routes>
+              <Route path="/categories" element={<Categories />} />
+              <Route exact path="/" element={<BooksPage />} />
+            </Routes>
+          </div>
         </div>
-      </div>
-    </Router>
-  </Provider>
-);
+      </Router>
+    </Provider>
+  );
+}
 
 export default App;

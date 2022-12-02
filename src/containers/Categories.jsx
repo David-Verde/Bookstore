@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 
 const Categories = () => (
@@ -7,3 +8,4 @@ const Categories = () => (
 );
 
 export default Categories;
+/* eslint-enable */

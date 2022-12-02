@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* eslint-disable import/no-duplicates */
 import React from 'react';
 import { useDispatch } from 'react-redux';
@@ -86,3 +87,4 @@ const BookForm = () => {
 };
 
 export default BookForm;
+/* eslint-enable */
